@@ -19,7 +19,7 @@ body {
 }
 
 a {
-  color: #982b3c;
+  color: #40ad48;
   text-decoration: none;
 }
 
@@ -211,7 +211,7 @@ Content block
   top: 50%;
   width: 2px;
   height: 24px;
-  background-color: #343642;
+  background-color: white;
   /* Force Hardware Acceleration */
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -442,3 +442,18 @@ Javascript disabled
     display: none;
   }
 }
+
+
+
+/* icon */
+.fas {
+  color: #40ad48;
+}
+
+/*img responsive*/
+
+ img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+      }
