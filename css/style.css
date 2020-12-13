@@ -14,7 +14,7 @@ html {
 body {
   font-size: 1.6rem;
   font-family: 'Times New Roman', 'serif';
-  color: #40ad48;
+  color: white;
   background-color: black;
 }
 
@@ -74,21 +74,21 @@ Images block
 }
 .cd-images-list > li {
   height: 250px;
-  background: black url(../img/01.png) no-repeat center center;
+  background: black url(../img/intro.jpg) no-repeat center center;
   background-size: cover;
 }
 .cd-images-list > li:nth-of-type(2) {
   background: black  url(../img/02.jpg) no-repeat center center;
   background-size: cover;
 }
-/*.cd-images-list > li:nth-of-type(3) {
-  background: black url(../img/img-3.jpg) no-repeat center center;
+.cd-images-list > li:nth-of-type(3) {
+  background: black url(../img/03.png) no-repeat center center;
   background-size: cover; 
-}*/
-/*.cd-images-list > li:nth-of-type(4) {
-  background: #338899 url(../img/img-4.jpg) no-repeat center center;
+}
+.cd-images-list > li:nth-of-type(4) {
+  background: #338899 url(../img/ddmk.jpg) no-repeat center center;
   background-size: cover; 
-}*/
+}
 
 .cd-images-list > li > a {
   /* used to vertically align the h2 child -  mobile version only */
@@ -447,7 +447,7 @@ Javascript disabled
 
 /* icon */
 .fas {
-  color: #40ad48;
+  color: white;
 }
 
 /*img responsive*/
