@@ -410,13 +410,13 @@ img {
         width: auto;
         height: auto;
       }
+
 input{
 	max-width: 100%;
 	    max-width:400px;
         max-height:500px;
         width: auto;
         height: auto;
-	   
-        margin: 0 auto;
+	    margin: 0 auto;
         
 }
