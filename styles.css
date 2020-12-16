@@ -380,7 +380,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
     font-family: 'roboto';
     font-weight: 400;
     position: relative;
-	color: white;
+	color: yellow;
 	background: black;
 	
  
@@ -419,4 +419,55 @@ input{
         height: auto;
 	    margin: 0 auto;
         
+}
+
+
+
+/**/
+.toggle {
+  display: inline-block;
+}
+
+.toggle input {
+  visibility: hidden;
+}
+
+.toggle input:checked ~ .hidden {
+  visibility: visible;
+}
+
+.toggle .hidden {
+  visibility: collapse;
+}
+
+
+/**/
+.texto{
+	font-size: 14px;
+}
+
+/**/
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 0px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: yellow;
+  color: black;
+  text-align: left;
+/*  border-radius: 6px;*/
+  padding: 5px 0;
+	font-size: 10px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
