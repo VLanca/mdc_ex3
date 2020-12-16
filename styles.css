@@ -1,4 +1,14 @@
 @charset "utf-8";
+
+::selection 
+{
+    background-color: yellow;
+	
+	/*orangered*/
+}
+
+
+
 body{
 	background: black;
 }
@@ -470,4 +480,21 @@ input{
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
+}
+
+
+
+/**/
+.pdf{
+	color: white;
+	
+}
+
+/**/
+
+
+.text_{
+	text-align: right;
+	color: white;
+	font-size: 10px;
 }
